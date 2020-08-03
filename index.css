@@ -1,6 +1,6 @@
 body {
     background: #f6f6f6;
-    background-color: black;
+    background-color: yellow;
     font-family: 'Staatliches', cursive;
   }
   
@@ -13,7 +13,7 @@ body {
     color: white;
     padding: 5px;
     width: 100%;
-    font-size: 50px;
+    font-size: 40px;
   
     background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
     background-size: 1800% 1800%;
