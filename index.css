@@ -2,11 +2,14 @@ body {
   
     background-image : url('bg3.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
     font-family: 'Staatliches', cursive;
   }
   
   .countdownContainer {
-    position: relative;
+    position: absolute;
     top :50% ;
     left: 50%;
         transform: translateX(-50%) translateY(-50%);
