@@ -5,9 +5,9 @@ body {
   }
   
   .countdownContainer {
-      top :10% ;
-    left: 50%;
     position: absolute;
+    top :10% ;
+    left: 50%;
         transform: translateX(-50%) translateY(-50%);
     text-align: center;
     color: white;
