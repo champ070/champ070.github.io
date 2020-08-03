@@ -6,7 +6,7 @@ body {
   
   .countdownContainer {
     position: absolute;
-    top :50% ;
+    top :100% ;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     text-align: center;
