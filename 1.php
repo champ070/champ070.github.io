@@ -1,5 +1,6 @@
-
-
+<html>
+   <body>
+       
 <?php
 
 $number = $_POST['number'];
@@ -12,3 +13,6 @@ else
 }
 
 ?>
+
+    </body>
+</html>
