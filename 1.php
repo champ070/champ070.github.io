@@ -3,7 +3,7 @@
        
 <?php
 
-$number = $_POST['number'];
+$number = $_GET['number'];
 if ($number == "1"){
     echo "nice" ;
 }
