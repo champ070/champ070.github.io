@@ -59,6 +59,21 @@ body {
     color : red;
     text-align: center;
   }
+.info3 {
+    font-size: 40px;
+    color : pink;
+    text-align: center;
+  }
+.info4 {
+    font-size: 30px;
+    color : pink;
+    text-align: center;
+  }
+.info5 {
+    font-size: 25px;
+    color : white;
+    text-align: center;
+  }
   #notBirthdayTime {
     color: white;
     position: absolute;
