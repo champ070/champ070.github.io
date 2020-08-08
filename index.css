@@ -74,6 +74,11 @@ body {
     color : white;
     text-align: center;
   }
+.info6 {
+    font-size: 15px;
+    color : white;
+    text-align: center;
+}
   #notBirthdayTime {
     color: white;
     position: absolute;
