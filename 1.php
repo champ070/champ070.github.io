@@ -1,18 +1,11 @@
-<html>
-   <body>
-       
-<?php
 
-$number = $_GET['number'];
-if ($number == "1"){
-    echo "nice" ;
-}
-else
-{
-    echo "well";
-}
+<html>
+<body>
+
+
+<?php echo $_POST["number"]; ?><br>
+Your number is <?php echo $_POST["number"]; ?>
 
 ?>
-
-    </body>
+</body>
 </html>
