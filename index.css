@@ -61,7 +61,7 @@ background-size: 100% 100%;
 }
 .info3 {
   font-size: 40px;
-  color :#F7C0A5;
+  color :brown;
   text-align: center;
 }
 .info4 {
@@ -79,9 +79,7 @@ background-size: 100% 100%;
   color : white;
   text-align: center;
 }
-.case {
-  font-variant: normal;
-}
+
 #notBirthdayTime {
   color: white;
   position: absolute;
