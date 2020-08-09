@@ -78,10 +78,27 @@
         </tr>
         <tr>
           <td colspan="6">
-           <form method="GET" action="1.php">
-                <input type="text" name="my_value">
-                <input type="submit">
-              </form></td>
+           <input type="number" id="myNumber" value="2">
+
+<p>Click the button to get the number of the number field.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p><strong>Note:</strong> input elements with type="number" are not supported in IE 9 and earlier versions.</p>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myNumber").value;
+  if (x == 2){
+  document.getElementById("demo").innerHTML = x;
+  }
+  else {
+  document.getElementById("demo").innerHTML = 10;
+ }
+}
+</script>
         </tr>
 
       
