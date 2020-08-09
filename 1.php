@@ -1,11 +1,4 @@
-
+<!DOCTYPE html>
 <html>
-<body>
-
-
-<?php echo $_POST["number"]; ?><br>
-Your number is <?php echo $_POST["number"]; ?>
-
-?>
-</body>
+  <p><?php echo $_GET['my_value']; ?></p>
 </html>
