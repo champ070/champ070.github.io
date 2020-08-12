@@ -49,9 +49,24 @@ document.addEventListener('DOMContentLoaded', function() {
   
         setTimeout(countdown, 1000)
   
-      } // end of if ( isItFebruary4th )
-  
-    } // end of countdown
+      } 
+    } 
     countdown()
   
   })
+
+    function myFunction() {
+      var x = document.getElementById("myNumber").value;
+      if (x == 1){
+      document.getElementById("result").innerHTML = "what are the things that you like most about me, one before february and one after february...? ";
+      }
+      else if (x == 2){
+      document.getElementById("result").innerHTML = "talk to poppy today sweetly and tell him how muc you love him and he means for you";
+      }
+      else if (x == 3){
+      document.getElementById("result").innerHTML = "send a screenshot of your web search history of last 5 days :p ";
+      }
+      else{
+         document.getElementById("demo").innerHTML = "ullu , 1-3 mein dalna hai";
+      }
+    }
