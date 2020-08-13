@@ -9,16 +9,16 @@ document.addEventListener('DOMContentLoaded', function() {
   
     const currentTime = new Date()
     let yearOfTheEvent = currentTime.getFullYear()
-    let eventDate = new Date( yearOfTheEvent, 07, 30 )
-    const isItAugust30th = currentTime.getMonth() === 07 && currentTime.getDate() === 30
+    let eventDate = new Date( yearOfTheEvent, 07, 12 )
+    const isItAugust30th = currentTime.getMonth() === 07 && currentTime.getDate() === 12
   
     function countdown() {
       const now = new Date()
       
       if (now > eventDate) {
-        eventDate = new Date( yearOfTheEvent + 1, 07, 30 )
+        eventDate = new Date( yearOfTheEvent + 1, 07, 12 )
       } else if ( now.getFullYear() === eventDate.getFullYear() + 1 ) {
-        eventDate = new Date( now.getFullYear(), 07, 30 )
+        eventDate = new Date( now.getFullYear(), 07, 12 )
       }
       
       const currentTime = now.getTime()
@@ -49,22 +49,22 @@ document.addEventListener('DOMContentLoaded', function() {
   
         setTimeout(countdown, 1000)
   
-      } 
-    } 
-    countdown()
+      } // end of if ( isItFebruary4th )
   
-  })
+    } // end of countdown
+    countdown()
+  }) 
 
     function myFunction() {
       var x = document.getElementById("myNumber").value;
       if (x == 1){
-      document.getElementById("result").innerHTML = "what are the things that you like most about me, one before february and one after february...? ";
+      document.getElementById("result").innerHTML = "tell me the one best compliment , jo kisi ne kra tumhe and which you liked the most one... ";
       }
       else if (x == 2){
-      document.getElementById("result").innerHTML = "talk to poppy today sweetly and tell him how muc you love him and he means for you";
+      document.getElementById("result").innerHTML = "khud ko khoob zor se thappad marte hue ek video banao or send kro :p ( han jante hai bas ek thappad par nai maar skta :p)";
       }
       else if (x == 3){
-      document.getElementById("result").innerHTML = "send a screenshot of your web search history of last 5 days :p ";
+      document.getElementById("result").innerHTML = "what do you hate about me ??? ";
       }
       else{
          document.getElementById("demo").innerHTML = "ullu , 1-3 mein dalna hai";
