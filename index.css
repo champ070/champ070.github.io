@@ -80,6 +80,12 @@ background-size: 100% 100%;
   text-align: center;
 }
 
+.info6 {
+  font-size: 20px;
+  color : brown;
+  text-align: center;
+}
+
 #notBirthdayTime {
   color: white;
   position: absolute;
