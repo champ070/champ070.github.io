@@ -15,10 +15,14 @@
     <meta charset="utf-8">
     <title>Is it Moti Birthday?</title>
   </head>
-  <audio autoplay>
-  <source src="bday.mp3" type="audio/mpeg"></audio>
-  <body>
 
+  <body>
+ <audio src="bday.mp3" id="my_audio" loop="loop"></audio>
+  <script type="text/javascript">
+    window.onload=function(){
+      document.getElementById("my_audio").play();
+    }
+  </script>
   
       <table style="table-layout:fixed" class="countdownContainer">
           
