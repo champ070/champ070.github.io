@@ -9,15 +9,16 @@ document.addEventListener('DOMContentLoaded', function() {
   
     const currentTime = new Date()
     let yearOfTheEvent = currentTime.getFullYear()
-    let eventDate = new Date( yearOfTheEvent, 07, 30 )
-    const isItAugust30th = currentTime.getMonth() === 07 && currentTime.getDate() === 30
+    let eventDate = new Date( yearOfTheEvent, 07, 29 )
+    const isItAugust30th = currentTime.getMonth() === 07 && currentTime.getDate() === 29
   
     function countdown() {
+      const now = new Date()
       
       if (now > eventDate) {
-        eventDate = new Date( yearOfTheEvent + 1, 07, 30 )
+        eventDate = new Date( yearOfTheEvent + 1, 07, 29 )
       } else if ( now.getFullYear() === eventDate.getFullYear() + 1 ) {
-        eventDate = new Date( now.getFullYear(), 07, 30 )
+        eventDate = new Date( now.getFullYear(), 07, 29 )
       }
       
       const currentTime = now.getTime()
